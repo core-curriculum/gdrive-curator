@@ -1,4 +1,4 @@
-name: Download google sheets and push to core-curriculum/data
+name: Download google drive data and push to core-curriculum/data
 
 on:
   schedule:
