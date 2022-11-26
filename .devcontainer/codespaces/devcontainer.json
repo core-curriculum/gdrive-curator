@@ -2,7 +2,7 @@
 {
 	"name": "${localWorkspaceFolderBasename}",
 	"build": {
-		"dockerfile": "Dockerfile",
+		"dockerfile": "../Dockerfile",
 		"context": "../.."
 	},
 	"remoteEnv": {

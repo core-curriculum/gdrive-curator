@@ -11,3 +11,4 @@ output
 sheets
 python
 docs
+*.log
