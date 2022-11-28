@@ -1,3 +1,366 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-/bin/sh: make: not found
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
 
+# Make data base, printed on Mon Nov 28 02:15:16 2022
+
+# Variables
+
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /vscode/bin/linux-x64/6261075646f055b99068d3688932416f2346dd3b
+# environment
+PYTHON_GET_PIP_URL = https://github.com/pypa/get-pip/raw/38e54e5de07c66e875c11a1ebbdb938854625dd8/public/get-pip.py
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+GAUTH_PROJECT_ID = core-curriculum-339702
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /workspaces/gdrive-curator
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = codespaces-dd7976
+# environment
+OLDPWD = /vscode/bin/linux-x64/6261075646f055b99068d3688932416f2346dd3b
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# environment
+GDRIVE_OUTCOME = 1FlCwwi71s1BI4uhOf2CefX85byj1Alo_
+# environment
+GITHUB_SERVER_URL = https://github.com
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GITHUB_API_URL = https://api.github.com
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /workspaces/gdrive-curator
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+GAUTH_TOKEN_URI = https://oauth2.googleapis.com/token
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+GAUTH_CLIENT_X509_CERT_URL = https://www.googleapis.com/oauth2/v1/certs
+# environment
+GITHUB_USER = ncukondo
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+ContainerVersion = 12
+# environment
+GPG_KEY = A035C8C19219BA821ECEA86B64E628F8D684696D
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+GAUTH_TYPE = service_account
+# automatic
+@F = $(notdir $@)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PYTHON_PIP_VERSION = 22.0.4
+# environment
+SHELL_LOGGED_IN = true
+# environment
+INTERNAL_VSCS_TARGET_URL = https://southeastasia.online.visualstudio.com
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+ 
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# environment
+JUPYTER_ENABLE_LAB = yes
+# default
+MAKECMDGOALS := all
+# environment
+GITHUB_TOKEN = ghu_Ddx1MFjpk7Qwoes5qjrSTFId4Zk6xf3EBQpz
+# environment
+SHLVL = 1
+# environment
+GAUTH_CLIENT_ID = 100395488015358001314
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /vscode/bin/linux-x64/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+GAUTH_CLIENT_EMAIL = core-curriculum-dev@core-curriculum-339702.iam.gserviceaccount.com
+# environment
+CODESPACES = true
+# environment
+GDRIVE_DOCUMENTS = 12WHiCpPGPMFXInAL92uXAZbYDuwJEnnX
+# automatic
+?F = $(notdir $?)
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+PYTHON_SETUPTOOLS_VERSION = 58.1.0
+# environment
+GAUTH_PRIVATE_KEY = -----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2OQG3sFdWeK+H\nosn30cIe51jzDoSi2e4OGXnGUUBe4QH6lK6tWCyWkbzVszF14Xb85LL8IEOnhoSy\nSZ3snWATgP101s7juirHDs1nyTPuXgyUkf/YnaxJW5wJ4ldgXMNFV9yTJvQpsdX0\nBlzqnITbL08qk/BhJjtxmaoABXOTVNWsKIax9JTu7sfUXbQ+hSZfF+1cByh2RrdT\nwdsIxw+rYUlNDC1aENJVnizf6m++kI8D8/PxW6UGaiL6NXuxcNNJkcgLMEVzfV0I\nMvApVHViZAnka9wbnymvS7RBaHZXugxw2VK6P/7WV1hzVxL134AU3CybxFuqqrTL\nPYypVkPzAgMBAAECggEABDjc69Mnqua/9m4UrOvMyieFHZicBSP0ipoXgrtWOPyQ\nrawtQfH1koWM8QymXDtdpO1toj7jImoRAAqJoLZiyADonoDtqUQigps6silszRyb\nwQODAJNirw5y1p3KdX6gvaYUA8rWxHKM6QsOsxbuUx/M/0kPPEkE/pRXZom5zFOU\nWK2A9zbLN2Tzuo0U67fS/KMSIktBWJ331asu46ZnaFaQ0odh3aDHINr3EP/EWiZI\nRcd0IX1Sp5dQeOkikhc10hZzgKwDwfekMQowArWoZakRN85EqseqlzEEYWvuiCOh\nm24t28WTrsLQr1YYRPHpg8ZQLjh9fgiyJVr/y1XvDQKBgQDoa4V4Bk+EKEkegQX0\nJxNlRG3zoUG58Q5C7mNwIVpd+KnsyWxUm33IKfD5/9PGlWfEijtFwEikq2Bd0I8k\nr7HEfEgXqqLYlm8HOUBepr560ifMTwT+I/Utzc/7YdTIboWGEUVDI6NY+pE/46vj\nmyTYA2WQbbeUerHQ6T4ye4OnlQKBgQDItb8ExXqtcj2fS0hUUE0i5DNUHX9xvr16\ncSq8XB837+sBoS1PLOQAtQ8+2eD9oxwTYRHLSFjbR+ihzkHdatAvNGrirgP0PgLC\nmdzle+X0m/VJJzt120j70goVBEa6HyArKDvBtY7//uy2KjdY/SHsUItFA7SnveQf\no21UjyS7ZwKBgBIO6JvewabfCm9YTwIdVyBzJKfdS6IK3LTOmONJdCABBhLjw4r/\nWdKHj7Wc7vNrAFkA9IIC4qIIvsALSFPtYr6FeYR9OZHiflXtWNcB1aLtWTJCoXyt\nhos8hoBdpY69J5q3FM6WokZzkX2JTv2sPDycZvPF0pGyxsYYmUCK4DvRAoGAK50a\nug2zf7cgXtn8CJ4+dMODx9Z1GCFriQzITY/zFLOkrID6mIbXsLOncW/k7RihhDCG\nrla1QEka6vYn59ZLEMbiJwnLQCqtbN4EWzWWHZY6McA9snmJHXdhy3lXaSBUXCxs\n98XdIhGiHF+GEWdIFNLXwJJykjS4OovHuSU1xScCgYEAlEnFKlBTfN+H97w8d0NU\nhLfaosUJ/haxZsQ1rdmF5D+ntZFCdHWWOhGVUcs5k3yAJpJ3yvRH3ARL0H8JIWeS\ngGvwdCknoh6NKvBhlBBRegiudzxWUQx3dzRbYKl+KLUUAAuud3KTnxDP/xCi1vLG\ngzSi11PglL9RLbmn73YFsz0=\n-----END PRIVATE KEY-----\n
+# environment
+BROWSER = /vscode/bin/linux-x64/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+GAUTH_AUTH_URI = https://accounts.google.com/o/oauth2/auth
+# environment
+PYTHON_VERSION = 3.10.3
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+ 
+# environment
+VSCODE_AGENT_FOLDER = /home/vscode/.vscode-remote
+# environment
+_ = /bin/cat
+# environment
+CODESPACE_NAME = ncukondo-sturdy-train-g4p95pprxvjf967j
+# environment
+GAUTH_PRIVATE_KEY_ID = 8685ca77d675fc95b3e17ea75bff5a46f412aafc
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-65166466-1983-41f8-9a2d-be3f8e2bb3ed.sock
+# environment
+CLOUDENV_ENVIRONMENT_ID = 01b903e2-d172-4dc3-b82a-cdb806c0aee0
+# environment
+GITHUB_REPOSITORY = core-curriculum/gdrive-curator
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/vscode
+# environment
+GITHUB_GRAPHQL_URL = https://api.github.com/graphql
+# environment
+RepositoryName = gdrive-curator
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYTHON_GET_PIP_SHA256 = e235c437e5c7d7524fbce3880ca39b917a73dc565e0c813465b7a7a329bb279a
+# environment
+GITHUB_CODESPACE_TOKEN = AEB3ZOUTR2FRLV6MNCYF4K3DQTBDHANCNFSM4ACF4YZA
+# environment
+GDRIVE_GENERAL = 1IDl3cSc8u5y4Gf13_PBCEZdFFnDv6Ilz
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN = preview.app.github.dev
+# environment
+GRANT_SUDO = yes
+# environment
+DEBUG = ,vs-ssh
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+GAUTH_AUTH_PROVIDER_X509_CERT_URL = https://www.googleapis.com/oauth2/v1/certs
+# variable set hash-table stats:
+# Load=92/1024=9%, Rehash=0, Collisions=9/125=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 1792, inode 1572878): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+markdown:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+texts:
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	python ./python/output_outcomes_text.py
+
+docs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	python ./python/output_docs_data.py
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 03:07:24.004354874
+#  File has been updated.
+#  Successfully updated.
+
+downloads:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 31):
+	python ./python/download_sheets.py
+	python ./python/download_docx.py
+	python ./python/download_zip_doc.py
+
+other_data:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+csv:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
+	python ./python/output_outcomes_csv.py
+	python ./python/output_relations.py
+	python ./python/output_2016_goals.py
+
+# Not a target:
+.DEFAULT:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+output:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	make downloads
+	rm -rf output
+	make csv
+	make texts
+	make docs
+	mkdir -p output_in_github
+	cp -r ./output/* output_in_github
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 4):
+	make python_files
+	make output
+
+python_files:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	jupyter nbconvert --to python ./src/*.ipynb
+	rm -rf python
+	mkdir -p python
+	cp ./src/*.py python
+	cp -r ./src/lib python
+	rm ./src/*.py
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: downloads python_files csv markdown output texts docs other_data all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/40=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 26 / storage = 226 B / avg = 8 B
+# current buf: size = 8162 B / used = 226 B / count = 26 / avg = 8 B
+
+# strcache performance: lookups = 48 / hit rate = 45%
+# hash-table stats:
+# Load=26/8192=0%, Rehash=0, Collisions=0/48=0%
+# Finished Make data base on Mon Nov 28 02:15:16 2022
+
+ 
