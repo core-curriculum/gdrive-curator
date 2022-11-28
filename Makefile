@@ -4,12 +4,12 @@ all:
 	make python_files
 	make output
 
+#	make docs temporally deleted from output , put make docs after make outcomes_text later
 output:
 	make downloads
 	rm -rf output
 	make csv
-	make texts
-	make docs
+	make outcomes_text
 	mkdir -p output_in_github
 	cp -r ./output/* output_in_github
 
@@ -20,7 +20,7 @@ csv:
 	python ./python/output_2016_goals.py
 
 
-texts:
+outcomes_text:
 	python ./python/output_outcomes_text.py
 
 docs:
