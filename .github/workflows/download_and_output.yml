@@ -58,7 +58,7 @@ jobs:
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add .
-            git commit -m "Updated from GSheets(${{ env.CURRENT_DATETIME }})"
+            git commit -m "Updated from gdrive-curator(${{ env.CURRENT_DATETIME }})"
             git push
           else
             echo no change

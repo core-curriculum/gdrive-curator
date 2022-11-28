@@ -5,8 +5,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Mon Nov 28 14:08:10 2022
+# Make data base, printed on Mon Nov 28 14:15:04 2022
 
 # Variables
 
@@ -53,7 +54,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/ncukondo/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-89955225-4e40-4332-b63f-9a817cbb3bf9.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-d85651aa-16a8-4d71-8cf9-827818ab75bd.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -73,11 +74,11 @@ PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
 # environment
 SSH_AGENT_PID = 258
 # environment
-WSL_INTEROP = /run/WSL/28388_interop
+WSL_INTEROP = /run/WSL/29817_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = 6aff11f2-442f-4833-9ede-a0dd79e41fc8
+WT_SESSION = 89192313-f09c-4bc8-b8df-851b754f2720
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -194,11 +195,10 @@ python_files:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 36):
+#  recipe to execute (from 'Makefile', line 39):
 	jupyter nbconvert --to python ./src/*.ipynb
 	rm -rf python
 	mkdir -p python
- 
 	cp ./src/*.py python
 	cp -r ./src/lib python
 	rm ./src/*.py
@@ -233,7 +233,7 @@ all:
 	make python_files
 	make output
 
-.PHONY: downloads python_files csv markdown output texts docs other_data all
+.PHONY: downloads python_files csv markdown output texts docs other_data all output_outcomes_text
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -253,16 +253,22 @@ markdown:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-11-28 12:01:31.664329218
+#  Last modified 2022-11-28 14:12:08.700056624
 #  File has been updated.
 #  Successfully updated.
+
+output_outcomes_text:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
 
 downloads:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 31):
+#  recipe to execute (from 'Makefile', line 34):
 	python ./python/download_sheets.py
 	python ./python/download_docx.py
 	python ./python/download_zip_doc.py
@@ -277,6 +283,7 @@ outcomes_text:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 24):
 	python ./python/output_outcomes_text.py
 
@@ -285,7 +292,7 @@ docs:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 27):
+#  recipe to execute (from 'Makefile', line 30):
 	python ./python/output_docs_data.py
 
 texts:
@@ -312,21 +319,23 @@ other_data:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	python ./python/output_other_data.py
 
 # files hash-table stats:
-# Load=14/1024=1%, Rehash=0, Collisions=0/40=0%
+# Load=15/1024=1%, Rehash=0, Collisions=0/43=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 269 B / avg = 8 B
-# current buf: size = 8162 B / used = 269 B / count = 30 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 31 / storage = 290 B / avg = 9 B
+# current buf: size = 8162 B / used = 290 B / count = 31 / avg = 9 B
 
-# strcache performance: lookups = 52 / hit rate = 42%
+# strcache performance: lookups = 55 / hit rate = 43%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=1/52=2%
-# Finished Make data base on Mon Nov 28 14:08:10 2022
+# Load=31/8192=0%, Rehash=0, Collisions=1/55=2%
+# Finished Make data base on Mon Nov 28 14:15:04 2022
 
  
