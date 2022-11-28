@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/workspaces/gdrive-curator'
+make: Entering directory '/home/ncukondo/dev/core-curriculum/gdrive-curator'
 make python_files
 make output
-make: Leaving directory '/workspaces/gdrive-curator'
+make: Leaving directory '/home/ncukondo/dev/core-curriculum/gdrive-curator'
  

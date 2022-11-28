@@ -1,10 +1,10 @@
-.PHONY: downloads python_files csv markdown output texts docs other_data all
+.PHONY: downloads python_files csv markdown output texts docs other_data all output_outcomes_text
 
 all:
 	make python_files
 	make output
 
-#	make docs temporally deleted from output , put make docs after make outcomes_text later
+#	"make docs" and "make other_data" temporally deleted from output , put them after "make outcomes_text" later
 output:
 	make downloads
 	rm -rf output
@@ -22,6 +22,9 @@ csv:
 
 outcomes_text:
 	python ./python/output_outcomes_text.py
+
+other_data:
+	python ./python/output_other_data.py
 
 docs:
 	python ./python/output_docs_data.py
