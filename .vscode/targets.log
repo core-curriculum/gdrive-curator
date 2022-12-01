@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Dec  1 19:29:01 2022
+# Make data base, printed on Thu Dec  1 20:14:50 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/ncukondo/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-eaad3bf4-dcf7-497d-96f4-b037a93e742f.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-c4cd629f-594a-4cb8-b823-c8634f0b9a89.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -73,11 +73,11 @@ PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
 # environment
 SSH_AGENT_PID = 227
 # environment
-WSL_INTEROP = /run/WSL/6870_interop
+WSL_INTEROP = /run/WSL/10157_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = 11cff51f-cdb7-47d1-8b32-dc92b192bdd9
+WT_SESSION = 6aea1315-0896-480b-acc4-401ddb7539c9
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -275,6 +275,7 @@ downloads:
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -333,8 +334,7 @@ other_data:
 
 # strcache performance: lookups = 55 / hit rate = 43%
 # hash-table stats:
- 
 # Load=31/8192=0%, Rehash=0, Collisions=1/55=2%
-# Finished Make data base on Thu Dec  1 19:29:01 2022
+# Finished Make data base on Thu Dec  1 20:14:50 2022
 
  
