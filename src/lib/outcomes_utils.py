@@ -16,7 +16,7 @@ def iter_tables_for_outcome_raw():
         table = pd.read_csv(file)
         table = apply_condition_to_dataframe(table,info.条件)
         table["index"]=table.reset_index().index+1
-        table["index"]=f"TBL-{info.id}-"+table["index"].astype(str).str.zfill(3)
+        table["index"]=f"{info.index}-"+table["index"].astype(str).str.zfill(3)
         yield table,info
 
 table_index = get_table_index()
