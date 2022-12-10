@@ -28,11 +28,11 @@ def format_table_ref(x:str)->str:
             return ""
 
     def replace_func(reg:re.match)->str:
-        name = reg.group(1)
+        name = reg.group(2)
         whole = reg.group(0)
         label = name_to_label(name)
         if label:
             return f"[@tbl:{label}]"
         else:
             return whole
-    return re.sub(r"表\[([^\]]+)\]",replace_func,x)
+    return re.sub(r"表|(Table) ?\[([^\]]+)\]",replace_func,x)

@@ -32,6 +32,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: core-curriculum/data
+          ref: draft/update_from_gdrive-curator
           token: ${{ secrets.GH_PAT }}
           path: output_in_github
           fetch-depth: 1  
@@ -59,7 +60,7 @@ jobs:
             git config user.email github-actions@github.com
             git add .
             git commit -m "Updated from gdrive-curator(${{ env.CURRENT_DATETIME }})"
-            git push
+            git push origin draft/update_from_gdrive-curator
           else
             echo no change
           fi

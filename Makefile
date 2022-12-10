@@ -10,6 +10,8 @@ output:
 	rm -rf output
 	make csv
 	make outcomes_text
+	make docs
+	make other_data
 	mkdir -p output_in_github
 	cp -r ./output/* output_in_github
 
