@@ -36,7 +36,7 @@ class _output_dir:
         self.base = path.join(base,"output","2022",lang)
         self.outcomes = path.join(self.base,"outcomes")
         self.outcomes_tables = path.join(self.outcomes,"tables")
-        self.docs = path.join(self.base,"documsnts")
+        self.docs = path.join(self.base,"documents")
         self.docs_contents = path.join(self.docs,"contents")
         self.dir_2016 = path.join(base,"output","2016")
         self.relations_2016 = path.join(base,"output","relations","from2016to2022")
