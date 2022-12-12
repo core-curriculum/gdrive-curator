@@ -4,7 +4,6 @@ all:
 	make python_files
 	make output
 
-#	"make docs" and "make other_data" temporally deleted from output , put them after "make outcomes_text" later
 output:
 	make downloads
 	rm -rf output

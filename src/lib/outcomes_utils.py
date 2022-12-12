@@ -18,8 +18,8 @@ def get_table_index(lang="ja"):
         .rename(columns=table_columns_conversion[lang])\
         .loc[:,table_columns]
 
-def iter_tables_for_outcome_raw():
-    table_index = get_table_index()
+def iter_tables_for_outcome_raw(lang="ja"):
+    table_index = get_table_index(lang)
     for info in table_index.itertuples():
         file = get_glob_file(f"{SHEETS_OUTCOMES_DIR}/*編集用/別表-{info.source}.csv")
         table = pd.read_csv(file)

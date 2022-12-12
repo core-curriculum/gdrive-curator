@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Dec 10 16:26:27 2022
+# Make data base, printed on Mon Dec 12 16:43:18 2022
 
 # Variables
 
@@ -53,13 +53,13 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/ncukondo/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-0be43c21-51b9-4168-a77e-9d687283f4ea.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-963e1a8b-1df9-4c55-b10f-6b0c44ed586f.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-SqDvwA7I7HRC/agent.178
+SSH_AUTH_SOCK = /tmp/ssh-iLXG8y4zZBbX/agent.246
 # automatic
 %F = $(notdir $%)
 # environment
@@ -71,14 +71,13 @@ PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 179
+SSH_AGENT_PID = 247
 # environment
-WSL_INTEROP = /run/WSL/3281_interop
+WSL_INTEROP = /run/WSL/182_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
- 
-WT_SESSION = e15da266-7546-4b93-a05b-06391cee1303
+WT_SESSION = 04df0a1f-2b7f-4d93-b5bf-f7b8c2e9855b
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -172,9 +171,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2112, inode 170096): 17 files, no impossibilities.
+# . (device 2112, inode 170096): 11 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -187,7 +186,7 @@ csv:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 18):
+#  recipe to execute (from 'Makefile', line 20):
 	python ./python/output_outcomes_csv.py
 	python ./python/output_relations.py
 	python ./python/output_2016_goals.py
@@ -197,7 +196,7 @@ python_files:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 39):
+#  recipe to execute (from 'Makefile', line 41):
 	jupyter nbconvert --to python ./src/*.ipynb
 	rm -rf python
 	mkdir -p python
@@ -255,7 +254,7 @@ markdown:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-12-01 17:12:57.456584814
+#  Last modified 2022-12-12 16:41:52.585493617
 #  File has been updated.
 #  Successfully updated.
 
@@ -270,12 +269,13 @@ downloads:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 34):
+#  recipe to execute (from 'Makefile', line 36):
 	python ./python/download_sheets.py
 	python ./python/download_docx.py
 	python ./python/download_zip_doc.py
 
 # Not a target:
+ 
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -285,7 +285,7 @@ outcomes_text:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 24):
+#  recipe to execute (from 'Makefile', line 26):
 	python ./python/output_outcomes_text.py
 
 docs:
@@ -293,7 +293,7 @@ docs:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 30):
+#  recipe to execute (from 'Makefile', line 32):
 	python ./python/output_docs_data.py
 
 texts:
@@ -312,6 +312,8 @@ output:
 	rm -rf output
 	make csv
 	make outcomes_text
+	make docs
+	make other_data
 	mkdir -p output_in_github
 	cp -r ./output/* output_in_github
 
@@ -320,7 +322,7 @@ other_data:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 27):
+#  recipe to execute (from 'Makefile', line 29):
 	python ./python/output_other_data.py
 
 # files hash-table stats:
@@ -331,12 +333,12 @@ other_data:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 31 / storage = 290 B / avg = 9 B
-# current buf: size = 8162 B / used = 290 B / count = 31 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 254 B / avg = 9 B
+# current buf: size = 8162 B / used = 254 B / count = 27 / avg = 9 B
 
-# strcache performance: lookups = 55 / hit rate = 43%
+# strcache performance: lookups = 49 / hit rate = 44%
 # hash-table stats:
-# Load=31/8192=0%, Rehash=0, Collisions=1/55=2%
-# Finished Make data base on Sat Dec 10 16:26:27 2022
+# Load=27/8192=0%, Rehash=0, Collisions=1/49=2%
+# Finished Make data base on Mon Dec 12 16:43:18 2022
 
  
