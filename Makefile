@@ -2,19 +2,20 @@
 
 all:
 	make python_files
+	make downloads
+	rm -rf output
 	make output
+	mkdir -p output_in_github
+	cp -r ./output/* output_in_github
 
 # add "make docs" later
 output:
-	make downloads
-	rm -rf output
+	make python_files
 	make tables
 	make outcomes
 	make definitions
 	make 2016_goals
 	make relations
-	mkdir -p output_in_github
-	cp -r ./output/* output_in_github
 
 outcomes:
 	python ./python/output_outcomes.py

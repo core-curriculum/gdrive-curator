@@ -15,7 +15,7 @@ table_index_columns = ["id", "index", "name", "file", "source", "legend",
 
 
 def get_table_index(lang="ja"):
-    return pd.read_csv(f"{dirs().source.sheets.outcomes}/別表一覧/別表一覧.csv", encoding="utf_8_sig")\
+    return pd.read_csv(f"{dirs().input.sheets.outcomes}/別表一覧/別表一覧.csv", encoding="utf_8_sig")\
         .rename(columns=table_index_columns_conversion[lang])\
         .loc[:, table_index_columns]
 
@@ -24,7 +24,7 @@ def iter_tables_for_outcome_raw(lang="ja"):
     table_index = get_table_index(lang)
     for info in table_index.itertuples():
         file = get_glob_file(
-            f"{dirs().source.sheets.outcomes}/*編集用/別表-{info.source}.csv")
+            f"{dirs().input.sheets.outcomes}/*編集用/別表-{info.source}.csv")
         table = load_csv(file)
         table = apply_condition_to_dataframe(table, info.conditions)
         table["index"] = table.reset_index().index+1
