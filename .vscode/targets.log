@@ -5,13 +5,13 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sun Dec 25 13:59:42 2022
+# Make data base, printed on Tue Dec 27 13:11:11 2022
 
 # Variables
 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
@@ -54,13 +54,13 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/ncukondo/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-e2ea9504-ea7d-4091-bf3e-7ee1a3952157.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-7345046b-e49a-4ed3-9c6f-2df1cc7448fb.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-peN8ya7uVS4V/agent.198
+SSH_AUTH_SOCK = /tmp/ssh-wvZ9TX6DOZlm/agent.226
 # automatic
 %F = $(notdir $%)
 # environment
@@ -71,14 +71,15 @@ WSL2_GUI_APPS_ENABLED = 1
 PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
 # default
 .LOADED := 
+ 
 # environment
-SSH_AGENT_PID = 199
+SSH_AGENT_PID = 227
 # environment
-WSL_INTEROP = /run/WSL/183_interop
+WSL_INTEROP = /run/WSL/4978_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = 30372d80-32ac-420a-ba92-5ca2397c734b
+WT_SESSION = 94dd43ff-dfc3-468b-b3ba-1eb486bb82d3
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -161,8 +162,10 @@ LANG = C
 TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
+# environment
+MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=75/1024=7%, Rehash=0, Collisions=4/103=4%
+# Load=76/1024=7%, Rehash=0, Collisions=4/104=4%
 
 # Pattern-specific Variable Values
 
@@ -170,9 +173,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2112, inode 170096): 17 files, no impossibilities.
+# . (device 2112, inode 170096): 16 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -180,22 +183,20 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Files
 
-csv:
+definitions:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 19):
-	python ./python/output_outcomes_csv.py
-	python ./python/output_relations.py
-	python ./python/output_2016_goals.py
+#  recipe to execute (from 'Makefile', line 34):
+	python ./python/output_definitions.py
 
 python_files:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 40):
+#  recipe to execute (from 'Makefile', line 44):
 	jupyter nbconvert --to python ./src/*.ipynb
 	rm -rf python
 	mkdir -p python
@@ -231,18 +232,24 @@ all:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
 #  recipe to execute (from 'Makefile', line 4):
 	make python_files
+	make downloads
+	rm -rf output
 	make output
+	mkdir -p output_in_github
+	cp -r ./output/* output_in_github
 
-.PHONY: downloads python_files csv markdown output texts docs other_data all output_outcomes_text
+.PHONY: python_files output downloads tables outcomes definitions 2016_goals relations docs all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-markdown:
+2016_goals:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	python ./python/output_2016_goals.py
 
 # Not a target:
 .SUFFIXES:
@@ -253,25 +260,34 @@ markdown:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-12-12 18:34:30.206507385
+#  Last modified 2022-12-25 22:28:26.196181121
 #  File has been updated.
 #  Successfully updated.
 
-output_outcomes_text:
+relations:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	python ./python/output_relations.py
 
 downloads:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 35):
+#  recipe to execute (from 'Makefile', line 40):
 	python ./python/download_sheets.py
-	python ./python/download_docx.py
 	python ./python/download_zip_doc.py
+
+outcomes:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	python ./python/output_outcomes.py
 
 # Not a target:
 .DEFAULT:
@@ -279,65 +295,49 @@ downloads:
 #  Modification time never checked.
 #  File has not been updated.
 
-outcomes_text:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 25):
-	python ./python/output_outcomes_text.py
-
 docs:
 #  Phony target (prerequisite of .PHONY).
- 
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 31):
-	python ./python/output_docs_data.py
-
-texts:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	python ./python/output_docs.py
 
 output:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 8):
-	make downloads
-	rm -rf output
-	make csv
-	make outcomes_text
-	make docs
-	make other_data
-	mkdir -p output_in_github
-	cp -r ./output/* output_in_github
+#  recipe to execute (from 'Makefile', line 13):
+	make python_files
+	make tables
+	make outcomes
+	make definitions
+	make 2016_goals
+	make relations
 
-other_data:
+tables:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 28):
-	python ./python/output_other_data.py
+#  recipe to execute (from 'Makefile', line 30):
+	python ./python/output_tables.py
 
 # files hash-table stats:
-# Load=15/1024=1%, Rehash=0, Collisions=0/43=0%
+# Load=14/1024=1%, Rehash=0, Collisions=3/45=7%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 31 / storage = 290 B / avg = 9 B
-# current buf: size = 8162 B / used = 290 B / count = 31 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 273 B / avg = 9 B
+# current buf: size = 8162 B / used = 273 B / count = 30 / avg = 9 B
 
-# strcache performance: lookups = 55 / hit rate = 43%
+# strcache performance: lookups = 58 / hit rate = 48%
 # hash-table stats:
-# Load=31/8192=0%, Rehash=0, Collisions=1/55=2%
-# Finished Make data base on Sun Dec 25 13:59:42 2022
+# Load=30/8192=0%, Rehash=0, Collisions=1/58=2%
+# Finished Make data base on Tue Dec 27 13:11:11 2022
 
  
