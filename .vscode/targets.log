@@ -5,9 +5,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue Dec 27 13:11:11 2022
+# Make data base, printed on Fri Dec 30 15:23:57 2022
 
 # Variables
 
@@ -35,6 +34,7 @@ VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 _ = /mnt/c/Users/ncuko/AppData/Local/Programs/Microsoft VS Code/bin/code
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
+ 
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -54,13 +54,13 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/ncukondo/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-7345046b-e49a-4ed3-9c6f-2df1cc7448fb.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-be7ab8fa-8e23-4157-a699-b8ffb78363bb.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-wvZ9TX6DOZlm/agent.226
+SSH_AUTH_SOCK = /tmp/ssh-22msOXl9nKLQ/agent.227
 # automatic
 %F = $(notdir $%)
 # environment
@@ -71,15 +71,14 @@ WSL2_GUI_APPS_ENABLED = 1
 PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
 # default
 .LOADED := 
- 
 # environment
-SSH_AGENT_PID = 227
+SSH_AGENT_PID = 228
 # environment
-WSL_INTEROP = /run/WSL/4978_interop
+WSL_INTEROP = /run/WSL/8929_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = 94dd43ff-dfc3-468b-b3ba-1eb486bb82d3
+WT_SESSION = b51ed9de-d137-442f-8c98-94f9f0a73d21
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -311,6 +310,7 @@ output:
 #  recipe to execute (from 'Makefile', line 13):
 	make python_files
 	make tables
+ 
 	make outcomes
 	make definitions
 	make 2016_goals
@@ -338,6 +338,6 @@ tables:
 # strcache performance: lookups = 58 / hit rate = 48%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=1/58=2%
-# Finished Make data base on Tue Dec 27 13:11:11 2022
+# Finished Make data base on Fri Dec 30 15:23:57 2022
 
  
