@@ -6,11 +6,11 @@ from lib.utils import get_glob_file, load_csv
 from lib.apply_condition_to_dataframe import apply_condition_to_dataframe
 
 table_index_columns_conversion = {
-    "ja": {"name-ja": "name", "legend-ja": "legend", "columns-ja": "columns", "main-ja": "main", "conditions-ja": "conditions"},
-    "en": {"name-en": "name", "legend-en": "legend", "columns-en": "columns", "main-en": "main", "conditions-en": "conditions"},
+    "ja": {"item-ja": "item", "legend-ja": "legend", "columns-ja": "columns", "main-ja": "main", "conditions-ja": "conditions"},
+    "en": {"item-en": "item", "legend-en": "legend", "columns-en": "columns", "main-en": "main", "conditions-en": "conditions"},
 }
 
-table_index_columns = ["id", "index", "name", "file", "source", "legend",
+table_index_columns = ["id", "index", "item", "file", "source", "legend",
                        "number", "columns", "main", "conditions", "layout", "ref"]
 
 
@@ -39,7 +39,7 @@ table_index = get_table_index()
 def format_table_ref(x: str) -> str:
     def name_to_label(name: str):
         try:
-            return table_index.set_index("name").at[name, "file"]
+            return table_index.set_index("item").at[name, "file"]
         except KeyError:
             return ""
 
