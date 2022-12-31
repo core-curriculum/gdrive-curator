@@ -39,16 +39,18 @@ table_index = get_table_index()
 def format_table_ref(x: str) -> str:
     def name_to_label(name: str):
         try:
-            return table_index.set_index("item").at[name, "file"]
+            file = table_index.set_index("item").at[name, "file"]
+            name = re.sub(r"\.[^\.]+$", "", file)
+            return name
         except KeyError:
             return ""
 
     def replace_func(reg: re.match) -> str:
-        name = reg.group(2)
+        name = reg.group(1)
         whole = reg.group(0)
         label = name_to_label(name)
         if label:
             return f"[@tbl:{label}]"
         else:
             return whole
-    return re.sub(r"表|(Table) ?\[([^\]]+)\]", replace_func, x)
+    return re.sub(r"(?:表|Table) ?\[([^\]]+)\]", replace_func, x)
