@@ -1,5 +1,8 @@
 .PHONY: python_files output downloads tables outcomes definitions 2016_goals relations docs all
 
+export OUTPUT_LANG := ja
+export OUTPUT_DOCS := 0
+
 all:
 	make python_files
 	make downloads
@@ -8,13 +11,13 @@ all:
 	mkdir -p output_in_github
 	cp -r ./output/* output_in_github
 
-# add "make docs" later
 output:
 	make python_files
 	make tables
 	make outcomes
 	make definitions
 	make 2016_goals
+	if [ ${OUTPUT_DOCS} -ge 1 ]; then make docs ;fi
 	make relations
 
 outcomes:

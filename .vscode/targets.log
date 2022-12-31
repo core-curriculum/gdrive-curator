@@ -5,8 +5,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Dec 30 15:23:57 2022
+# Make data base, printed on Sat Dec 31 10:03:43 2022
 
 # Variables
 
@@ -34,7 +35,6 @@ VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 _ = /mnt/c/Users/ncuko/AppData/Local/Programs/Microsoft VS Code/bin/code
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
- 
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -54,7 +54,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/ncukondo/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-be7ab8fa-8e23-4157-a699-b8ffb78363bb.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-3b9eacc8-36f7-420c-b672-f3d19a99d071.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -74,11 +74,11 @@ PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
 # environment
 SSH_AGENT_PID = 228
 # environment
-WSL_INTEROP = /run/WSL/8929_interop
+WSL_INTEROP = /run/WSL/14065_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = b51ed9de-d137-442f-8c98-94f9f0a73d21
+WT_SESSION = 63017c42-3268-4993-a83a-0f05d6be6995
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -161,10 +161,8 @@ LANG = C
 TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
-# environment
-MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=76/1024=7%, Rehash=0, Collisions=4/104=4%
+# Load=75/1024=7%, Rehash=0, Collisions=4/103=4%
 
 # Pattern-specific Variable Values
 
@@ -259,7 +257,7 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-12-25 22:28:26.196181121
+#  Last modified 2022-12-30 15:36:11.288372651
 #  File has been updated.
 #  Successfully updated.
 
@@ -310,7 +308,6 @@ output:
 #  recipe to execute (from 'Makefile', line 13):
 	make python_files
 	make tables
- 
 	make outcomes
 	make definitions
 	make 2016_goals
@@ -337,7 +334,8 @@ tables:
 
 # strcache performance: lookups = 58 / hit rate = 48%
 # hash-table stats:
+ 
 # Load=30/8192=0%, Rehash=0, Collisions=1/58=2%
-# Finished Make data base on Fri Dec 30 15:23:57 2022
+# Finished Make data base on Sat Dec 31 10:03:43 2022
 
  
