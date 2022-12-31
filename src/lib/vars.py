@@ -4,7 +4,7 @@ variables common through projects
 import os
 from os import path
 
-langs = ("ja", "en")
+langs = tuple(os.environ.get("OUTPUT_LANG", "ja,en").split(","))
 
 
 class dirs:
