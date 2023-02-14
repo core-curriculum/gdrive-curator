@@ -5,11 +5,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue Feb 14 12:39:23 2023
+# Make data base, printed on Tue Feb 14 14:13:25 2023
 
 # Variables
+ 
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
@@ -57,7 +57,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/ncukondo/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-fcebee48-9c6a-4c39-bdb9-c4641b3172a0.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-71bb7d3a-101c-4dcb-bc05-c2bbf6a4e4ab.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -79,11 +79,11 @@ PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
 # environment
 SSH_AGENT_PID = 228
 # environment
-WSL_INTEROP = /run/WSL/11925_interop
+WSL_INTEROP = /run/WSL/16455_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = 03d2d946-0ec2-4573-8133-47b0e7daa67b
+WT_SESSION = da354918-53d6-42d8-81ab-72f9c635ba11
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -136,8 +136,6 @@ MFLAGS = -pqrR
 *D = $(patsubst %/,%,$(dir $*))
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -171,7 +169,7 @@ TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=78/1024=8%, Rehash=0, Collisions=4/106=4%
+# Load=77/1024=8%, Rehash=0, Collisions=4/105=4%
 
 # Pattern-specific Variable Values
 
@@ -283,13 +281,13 @@ downloads:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
- 
 #  recipe to execute (from 'Makefile', line 43):
 	python ./python/download_sheets.py
 	python ./python/download_zip_doc.py
 
 outcomes:
 #  Phony target (prerequisite of .PHONY).
+ 
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -346,6 +344,6 @@ tables:
 # strcache performance: lookups = 58 / hit rate = 48%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=1/58=2%
-# Finished Make data base on Tue Feb 14 12:39:23 2023
+# Finished Make data base on Tue Feb 14 14:13:25 2023
 
  
