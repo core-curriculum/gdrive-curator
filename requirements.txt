@@ -13,3 +13,4 @@ gspread
 oauth2client
 jupyter
 python-docx
+python-dotenv

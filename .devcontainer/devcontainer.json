@@ -6,24 +6,45 @@
 		"context": ".."
 	},
 	"remoteEnv": {
-		"JUPYTER_ENABLE_LAB":"yes",
-		"GRANT_SUDO":"yes"
+		"JUPYTER_ENABLE_LAB": "yes",
+		"GRANT_SUDO": "yes"
 	},
-	"runArgs": ["--env-file",".env"],
-	"settings": { 
-		"terminal.integrated.profiles.linux": {
-			"bash": {
-				"path": "/bin/bash"
-			}
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "/bin/bash"
+					}
+				},
+				"terminal.integrated.defaultProfile.linux": "bash",
+				"python.pythonPath": "/usr/local/bin/python",
+				"python.languageServer": "Pylance",
+				"python.linting.enabled": true,
+				"python.linting.pylintEnabled": true,
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+			],
 		},
-		"terminal.integrated.defaultProfile.linux": "bash",
-		"python.pythonPath": "/usr/local/bin/python",
-		"python.languageServer": "Pylance",
-		"python.linting.enabled": true,
-		"python.linting.pylintEnabled": true,
+		"codespaces": {
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "/bin/bash"
+					}
+				},
+				"terminal.integrated.defaultProfile.linux": "bash",
+				"python.pythonPath": "/usr/local/bin/python",
+				"python.languageServer": "Pylance",
+				"python.linting.enabled": true,
+				"python.linting.pylintEnabled": true,
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+			],
+		}
 	},
-	"extensions": [
-		"ms-python.python",
-		"ms-python.vscode-pylance",
-	],
 }

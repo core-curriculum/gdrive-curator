@@ -3,6 +3,10 @@ variables common through projects
 """
 import os
 from os import path
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
+
 
 langs = tuple(os.environ.get("OUTPUT_LANG", "ja,en").split(","))
 
