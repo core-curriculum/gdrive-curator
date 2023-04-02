@@ -1,175 +1,162 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.2.1
+# GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Feb 14 14:13:25 2023
+# Make data base, printed on Sun Apr  2 23:42:33 2023
 
 # Variables
- 
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
 # environment
-define WSLENV
-ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
-
-endef
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-8d583dc4-8a66-4ccd-ac18-4db80041df76.sock","/tmp/.X11-unix/X3","/home/vscode/.gnupg/S.gpg-agent"]
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63
+# environment
+PYTHON_GET_PIP_URL = https://github.com/pypa/get-pip/raw/38e54e5de07c66e875c11a1ebbdb938854625dd8/public/get-pip.py
 # default
-.SHELLFLAGS := -c
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
-# makefile
-CURDIR := /home/ncukondo/dev/core-curriculum/gdrive-curator
-# makefile
-SHELL = /bin/sh
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
-# environment
-_ = /mnt/c/Users/ncuko/AppData/Local/Programs/Microsoft VS Code/bin/code
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
-# environment
-LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-VSCODE_CWD = /mnt/c/Users/ncuko/AppData/Local/Programs/Microsoft VS Code
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-PATH = /home/ncukondo/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/home/ncukondo/.volta/bin:/home/ncukondo/.volta/bin:/home/ncukondo/.pyenv/shims:/home/ncukondo/.pyenv/bin:/home/ncukondo/.deno/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Volta/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/PROGRA~1/JPKI:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/ncuko/.pyenv/pyenv-win/bin:/mnt/c/Users/ncuko/.pyenv/pyenv-win/shims:/mnt/c/Users/ncuko/AppData/Local/Volta/bin:/mnt/c/Users/ncuko/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ncuko/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/GitHub CLI/:/mnt/c/Users/ncuko/.deno/bin:/mnt/c/Users/ncuko/.pyenv/pyenv-win:/mnt/c/Users/ncuko/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ncuko/AppData/Local/Pandoc/:/snap/bin
-# environment
-XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-PYENV_ROOT = /home/ncukondo/.pyenv
-# environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-71bb7d3a-101c-4dcb-bc05-c2bbf6a4e4ab.sock
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
-# environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-# environment
-SSH_AUTH_SOCK = /tmp/ssh-PrvjtiIBsG0M/agent.227
-# automatic
-%F = $(notdir $%)
-# environment
-DISPLAY = :0
 # makefile (from 'Makefile', line 4)
 OUTPUT_DOCS := 0
 # environment
-WSL2_GUI_APPS_ENABLED = 1
-# environment
-PWD = /home/ncukondo/dev/core-curriculum/gdrive-curator
-# default
-.LOADED := 
-# environment
-SSH_AGENT_PID = 228
-# environment
-WSL_INTEROP = /run/WSL/16455_interop
-# environment
-PULSE_SERVER = /mnt/wslg/PulseServer
-# environment
-WT_SESSION = da354918-53d6-42d8-81ab-72f9c635ba11
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /home/ncukondo
-# environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
-# environment
-LOGNAME = ncukondo
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /workspaces/gdrive-curator
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = b71e5f35a0b9
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
 # environment
-MAKELEVEL := 0
+LANG = C
 # default
-MAKE = $(MAKE_COMMAND)
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+ 
+# makefile
+CURDIR := /workspaces/gdrive-curator
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-8d583dc4-8a66-4ccd-ac18-4db80041df76.sock
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = vscode-wayland-fd5bdd19e8bde828b852d0e42ae575bb108921a5.sock
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GPG_KEY = A035C8C19219BA821ECEA86B64E628F8D684696D
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PYTHON_PIP_VERSION = 22.0.4
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+REMOTE_CONTAINERS_DISPLAY_SOCK = /tmp/.X11-unix/X3
+# makefile
+SHELL = /bin/sh
+# environment
+JUPYTER_ENABLE_LAB = yes
 # default
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
 # environment
-VOLTA_HOME = /home/ncukondo/.volta
+MAKELEVEL := 0
 # default
-MAKE_VERSION := 4.2.1
+MAKE = $(MAKE_COMMAND)
 # environment
-USER = ncukondo
-# makefile
-.DEFAULT_GOAL := all
-# environment
-NAME = Code
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/ncuko/.vscode/extensions/ms-vscode-remote.remote-wsl-0.75.2
-# default
-MAKE_COMMAND := make
-# makefile (from 'Makefile', line 3)
-OUTPUT_LANG := ja
-# default
-.VARIABLES := 
-# automatic
-*F = $(notdir $*)
-# makefile
-MAKEFLAGS = pqrR
-# environment
-MFLAGS = -pqrR
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# automatic
-+F = $(notdir $+)
-# environment
-DENO_INSTALL = /home/ncukondo/.deno
-# environment
-VSCODE_HANDLES_SIGPIPE = true
-# environment
-WT_PROFILE_ID = {2c4de342-38b7-51cf-b940-2309a097f518}
+PATH = /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # default
 MAKEFILES := 
 # automatic
-<F = $(notdir $<)
-# environment
-LC_ALL = C
-# environment
-HOSTTYPE = x86_64
-# automatic
 ^F = $(notdir $^)
+# environment
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-8d583dc4-8a66-4ccd-ac18-4db80041df76.sock
+# makefile (from 'Makefile', line 3)
+OUTPUT_LANG := ja,en
+# environment
+REMOTE_CONTAINERS = true
+# automatic
+?F = $(notdir $?)
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+PYTHON_SETUPTOOLS_VERSION = 58.1.0
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh
+# environment
+PYTHON_VERSION = 3.10.3
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = :3
+# default
+MAKE_VERSION := 4.3
+# environment
+VSCODE_AGENT_FOLDER = /home/vscode/.vscode-server
+# environment
+_ = /bin/cat
+# environment
+XDG_RUNTIME_DIR = /tmp/user/1000
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/user/1000/vscode-ipc-61ff68d1-cc32-4a9c-a34b-14cb0182d34c.sock
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/vscode
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYTHON_GET_PIP_SHA256 = e235c437e5c7d7524fbce3880ca39b917a73dc565e0c813465b7a7a329bb279a
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
 # default
 SUFFIXES := 
 # environment
-WAYLAND_DISPLAY = wayland-0
+GRANT_SUDO = yes
 # default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# default
-.RECIPEPREFIX := 
-# environment
-LANG = C
-# environment
-TERM = xterm-256color
-# environment
-WSL_DISTRO_NAME = Ubuntu
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # variable set hash-table stats:
-# Load=77/1024=8%, Rehash=0, Collisions=4/105=4%
+# Load=72/1024=7%, Rehash=0, Collisions=1/105=1%
 
 # Pattern-specific Variable Values
 
@@ -177,7 +164,7 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2112, inode 170096): 16 files, no impossibilities.
+# . (device 2080, inode 170096): 16 files, no impossibilities.
 
 # 16 files, no impossibilities in 1 directories.
 
@@ -186,6 +173,108 @@ WSL_DISTRO_NAME = Ubuntu
 # No implicit rules.
 
 # Files
+
+docs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	python ./python/output_docs.py
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-03-16 08:36:01.283451098
+#  File has been updated.
+#  Successfully updated.
+
+downloads:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	python ./python/download_sheets.py
+	python ./python/download_zip_doc.py
+
+relations:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	python ./python/output_relations.py
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+output:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	make python_files
+	make tables
+	make outcomes
+	make definitions
+	make 2016_goals
+	if [ ${OUTPUT_DOCS} -ge 1 ]; then make docs ;fi
+	make relations
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 7):
+	make python_files
+	make downloads
+	rm -rf output
+	make output
+	mkdir -p output_in_github
+	cp -r ./output/* output_in_github
+
+outcomes:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	python ./python/output_outcomes.py
+
+tables:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 33):
+	python ./python/output_tables.py
 
 definitions:
 #  Phony target (prerequisite of .PHONY).
@@ -208,39 +297,11 @@ python_files:
 	cp -r ./src/lib python
 	rm ./src/*.py
 
-all:
-#  Phony target (prerequisite of .PHONY).
-#  Command line target.
+# Not a target:
+.SUFFIXES:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := all
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := 
-# automatic
-# | := 
-# automatic
-# < := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  recipe to execute (from 'Makefile', line 7):
-	make python_files
-	make downloads
-	rm -rf output
-	make output
-	mkdir -p output_in_github
-	cp -r ./output/* output_in_github
+#  Modification time never checked.
+#  File has not been updated.
 
 .PHONY: python_files output downloads tables outcomes definitions 2016_goals relations docs all
 #  Implicit rule search has not been done.
@@ -255,83 +316,8 @@ all:
 #  recipe to execute (from 'Makefile', line 27):
 	python ./python/output_2016_goals.py
 
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-12-31 10:52:26.487198613
-#  File has been updated.
-#  Successfully updated.
-
-relations:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 30):
-	python ./python/output_relations.py
-
-downloads:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 43):
-	python ./python/download_sheets.py
-	python ./python/download_zip_doc.py
-
-outcomes:
-#  Phony target (prerequisite of .PHONY).
- 
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 24):
-	python ./python/output_outcomes.py
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-docs:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 40):
-	python ./python/output_docs.py
-
-output:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 15):
-	make python_files
-	make tables
-	make outcomes
-	make definitions
-	make 2016_goals
-	if [ ${OUTPUT_DOCS} -ge 1 ]; then make docs ;fi
-	make relations
-
-tables:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 33):
-	python ./python/output_tables.py
-
 # files hash-table stats:
-# Load=14/1024=1%, Rehash=0, Collisions=3/45=7%
+# Load=14/1024=1%, Rehash=0, Collisions=0/45=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
@@ -343,7 +329,7 @@ tables:
 
 # strcache performance: lookups = 58 / hit rate = 48%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=1/58=2%
-# Finished Make data base on Tue Feb 14 14:13:25 2023
+# Load=30/8192=0%, Rehash=0, Collisions=0/58=0%
+# Finished Make data base on Sun Apr  2 23:42:33 2023
 
  

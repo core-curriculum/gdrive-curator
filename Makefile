@@ -1,6 +1,6 @@
 .PHONY: python_files output downloads tables outcomes definitions 2016_goals relations docs all
 
-export OUTPUT_LANG := ja
+export OUTPUT_LANG := ja,en
 export OUTPUT_DOCS := 0
 
 all:
