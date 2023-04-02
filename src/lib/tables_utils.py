@@ -45,7 +45,16 @@ def format_table_ref(x: str) -> str:
         except KeyError:
             return ""
 
-    def replace_func(reg: re.match) -> str:
+    def number_to_label(name: str):
+        try:
+            file = table_index.set_index("number").at[name, "file"]
+            name = re.sub(r"\.[^\.]+$", "", file)
+            return name
+        except KeyError:
+            return ""
+
+
+    def replace_func1(reg: re.match) -> str:
         name = reg.group(1)
         whole = reg.group(0)
         label = name_to_label(name)
@@ -53,4 +62,13 @@ def format_table_ref(x: str) -> str:
             return f"[@tbl:{label}]"
         else:
             return whole
-    return re.sub(r"(?:表|Table) ?\[([^\]]+)\]", replace_func, x)
+    def replace_func2(reg: re.match) -> str:
+        name = reg.group(1)
+        whole = reg.group(0)
+        label = number_to_label(name)
+        if label:
+            return f"[@tbl:{label}]"
+        else:
+            return whole
+    first =  re.sub(r"(?:表|Table) ?\[([^\]]+)\]", replace_func1, x)
+    return re.sub(r"(?:表|Table) (\d-?\d?\d?)", replace_func2, first)
