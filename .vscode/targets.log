@@ -6,16 +6,17 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Apr  2 23:42:33 2023
+# Make data base, printed on Sat Nov 25 07:37:41 2023
 
 # Variables
 
+ 
 # environment
-REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-8d583dc4-8a66-4ccd-ac18-4db80041df76.sock","/tmp/.X11-unix/X3","/home/vscode/.gnupg/S.gpg-agent"]
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-17050b29-bfc6-4784-96d7-1853bc2c42d6.sock","/tmp/.X11-unix/X0","/home/vscode/.gnupg/S.gpg-agent"]
 # environment
 LC_ALL = C
 # environment
-VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63
+VSCODE_CWD = /vscode/vscode-server/bin/linux-x64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e
 # environment
 PYTHON_GET_PIP_URL = https://github.com/pypa/get-pip/raw/38e54e5de07c66e875c11a1ebbdb938854625dd8/public/get-pip.py
 # default
@@ -35,7 +36,7 @@ PWD = /workspaces/gdrive-curator
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-HOSTNAME = b71e5f35a0b9
+HOSTNAME = 9e5b93bd950e
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -48,21 +49,22 @@ LANG = C
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # makefile
 MAKEFLAGS = pqrR
- 
 # makefile
 CURDIR := /workspaces/gdrive-curator
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-8d583dc4-8a66-4ccd-ac18-4db80041df76.sock
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-17050b29-bfc6-4784-96d7-1853bc2c42d6.sock
 # default
 .SHELLFLAGS := -c
 # environment
-WAYLAND_DISPLAY = vscode-wayland-fd5bdd19e8bde828b852d0e42ae575bb108921a5.sock
+WAYLAND_DISPLAY = vscode-wayland-84ccd82c-6934-4ac2-ac3a-b4d5b8f9b017.sock
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
@@ -84,7 +86,7 @@ VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-REMOTE_CONTAINERS_DISPLAY_SOCK = /tmp/.X11-unix/X3
+REMOTE_CONTAINERS_DISPLAY_SOCK = /tmp/.X11-unix/X0
 # makefile
 SHELL = /bin/sh
 # environment
@@ -98,13 +100,13 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PATH = /vscode/vscode-server/bin/linux-x64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # default
 MAKEFILES := 
 # automatic
 ^F = $(notdir $^)
 # environment
-REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-8d583dc4-8a66-4ccd-ac18-4db80041df76.sock
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-17050b29-bfc6-4784-96d7-1853bc2c42d6.sock
 # makefile (from 'Makefile', line 3)
 OUTPUT_LANG := ja,en
 # environment
@@ -120,13 +122,13 @@ PYTHON_SETUPTOOLS_VERSION = 58.1.0
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-BROWSER = /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh
+BROWSER = /vscode/vscode-server/bin/linux-x64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh
 # environment
 PYTHON_VERSION = 3.10.3
 # makefile
 .DEFAULT_GOAL := all
 # environment
-DISPLAY = :3
+DISPLAY = :0
 # default
 MAKE_VERSION := 4.3
 # environment
@@ -136,7 +138,7 @@ _ = /bin/cat
 # environment
 XDG_RUNTIME_DIR = /tmp/user/1000
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/user/1000/vscode-ipc-61ff68d1-cc32-4a9c-a34b-14cb0182d34c.sock
+VSCODE_IPC_HOOK_CLI = /tmp/user/1000/vscode-ipc-6042007e-dcf1-4c05-8b5b-3368f95fe23e.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -156,7 +158,7 @@ GRANT_SUDO = yes
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # variable set hash-table stats:
-# Load=72/1024=7%, Rehash=0, Collisions=1/105=1%
+# Load=73/1024=7%, Rehash=0, Collisions=2/106=2%
 
 # Pattern-specific Variable Values
 
@@ -164,9 +166,9 @@ GRANT_SUDO = yes
 
 # Directories
 
-# . (device 2080, inode 170096): 16 files, no impossibilities.
+# . (device 2080, inode 24947): 12 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -185,7 +187,7 @@ docs:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2023-03-16 08:36:01.283451098
+#  Last modified 2023-11-25 00:53:41.759787668
 #  File has been updated.
 #  Successfully updated.
 
@@ -324,12 +326,13 @@ python_files:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 273 B / avg = 9 B
-# current buf: size = 8162 B / used = 273 B / count = 30 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 243 B / avg = 9 B
+# current buf: size = 8162 B / used = 243 B / count = 27 / avg = 9 B
+ 
 
-# strcache performance: lookups = 58 / hit rate = 48%
+# strcache performance: lookups = 54 / hit rate = 50%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=0/58=0%
-# Finished Make data base on Sun Apr  2 23:42:33 2023
+# Load=27/8192=0%, Rehash=0, Collisions=0/54=0%
+# Finished Make data base on Sat Nov 25 07:37:41 2023
 
  

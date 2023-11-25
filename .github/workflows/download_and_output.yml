@@ -25,6 +25,13 @@ jobs:
       GDRIVE_DOCUMENTS: ${{secrets.GDRIVE_DOCUMENTS}}
       GIT_BRANCH: draft/update_from_gdrive-curator
     steps:
+      - name: create github app token
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -34,7 +41,7 @@ jobs:
         with:
           repository: core-curriculum/data
           ref: ${{env.GIT_BRANCH}}
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ steps.app-token.outputs.token }}
           path: output_in_github
           fetch-depth: 1  
       - name: Setup Python
